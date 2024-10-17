@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loading{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-top: 14px solid #333;
+    border-left: 14px solid #333;
+    border-bottom: 14px solid #333;
+    border-right: 14px solid transparent;
+    margin: 100px;
+    animation: circle 1.5s infinite linear;
+}
+
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
